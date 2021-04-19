@@ -13,3 +13,6 @@
 | 1 |	LLR_1 |	Power Window |	When the input is 1 (button 1) i.e. when switch1 is pressed. |	The Green LED will glow i.e. the GPIO pin 13 will be set and GPIO pin 14 will be reset. |	1 |
 | 2 |	LLR_2 |	Power Window |	When the input is 1 (button 2) i.e. when switch2 is pressed. | The Red LED will glow i.e. the GPIO pin 14 will be set and GPIO pin 13 will be reset. |	2 |
 | 3 |	LLR_3 |	Power Window |	When the input is 1,1 (button 1, button 2) i.e. when both switch1, switch2 is pressed. |	No LED will glow i.e. the GPIO pin 13 and GPIO 14 will be reset. |	3 |
+| 4 |	LLR_4 |	Power Window |	When the input is 0,0 (button 1, button 2) i.e. when both switch1, switch2 is not pressed. |	No LED will glow i.e. the GPIO pin 13 and GPIO 14 will be reset. |	4 |
+| 5 |	LLR_5 |	Sunroof Control |	When the input is 1 i.e. when switch is pressed. |	The GPIO pin 12 will be set. |	5 |
+| 6 |	LLR_6	| Sunroof Control |	When the input is 0 i.e. when switch is released. |	The GPIO pin 12 will be reset. |	LLR_6 |
